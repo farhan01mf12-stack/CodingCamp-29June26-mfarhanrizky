@@ -1,6 +1,6 @@
 # Design Document: Life Dashboard Extensions
 
-## Overview
+## Overview 
 
 This document describes the technical design for adding five new widgets — **Habit Tracker**, **Notes/Journal**, **Expense Tracker**, **Countdown Timer**, and **Music/Spotify Widget** — to the existing Life Dashboard single-page application.
 
