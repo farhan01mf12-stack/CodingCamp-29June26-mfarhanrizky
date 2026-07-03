@@ -410,67 +410,6 @@
       <ul id="countdown-list" class="countdown-list" aria-live="polite" aria-label="Countdown events"></ul>
     </div>
 
-    <!-- ── MUSIC / SPOTIFY WIDGET CARD ────────────────────── -->
-    <div class="card music-card" aria-label="Music Player">
-      <div class="card-title">
-        <span class="icon">🎵</span> Music Player
-      </div>
-
-      <!-- Mode toggle -->
-      <div class="music-mode-row">
-        <label>
-          <input
-            type="radio"
-            id="music-mode-spotify"
-            name="music-mode"
-            value="spotify"
-            checked
-            aria-label="Spotify mode"
-          />
-          Spotify
-        </label>
-        <label>
-          <input
-            type="radio"
-            id="music-mode-audio"
-            name="music-mode"
-            value="audio"
-            aria-label="Audio mode"
-          />
-          Audio
-        </label>
-      </div>
-
-      <!-- Spotify input row (visible by default) -->
-      <div id="music-spotify-row" class="music-input-row">
-        <input
-          id="music-spotify-input"
-          type="text"
-          placeholder="Spotify playlist or track URL"
-          aria-label="Spotify playlist or track URL"
-        />
-      </div>
-
-      <!-- Audio input row (hidden by default) -->
-      <div id="music-audio-row" class="music-input-row" style="display:none;">
-        <input
-          id="music-audio-input"
-          type="text"
-          placeholder="Direct audio URL (.mp3, .ogg, .wav)"
-          aria-label="Direct audio URL"
-        />
-      </div>
-
-      <!-- Action buttons -->
-      <div class="music-actions-row">
-        <button id="music-submit-btn" class="btn btn-primary" aria-label="Load music">Load</button>
-        <button id="music-remove-btn" class="btn btn-ghost" style="display:none;" aria-label="Remove music player">Remove</button>
-      </div>
-
-      <!-- Player container -->
-      <div id="music-player-container" class="music-player-container"></div>
-    </div>
-
   </div><!-- /.dashboard -->
 
   <!-- ========================================================
