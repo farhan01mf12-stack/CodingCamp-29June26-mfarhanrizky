@@ -1,5 +1,5 @@
 # Requirements Document
-
+  
 ## Introduction 
 
 This document defines requirements for extending the existing Life Dashboard single-page application with five new widgets: Habit Tracker, Notes/Journal, Expense Tracker, Countdown Timer, and Music/Spotify Widget. The dashboard is built with vanilla HTML, CSS, and JavaScript; all data persists in browser localStorage with no backend server. Each new widget must integrate visually and functionally with the existing dashboard — matching the glassmorphism card design, the light/dark theme system, and the toast notification pattern already established.
